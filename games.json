@@ -1,0 +1,267 @@
+{
+    "games":[
+        {
+            "name": "Last of Us Part-1",
+            "id": "001",
+            "publisher": "Naughty Dog",
+            "genre": "Action Adventure",
+            "price": "69.99",
+            "releaseDate": "02/09/2022",
+            "rating":{
+                "IGN": "9/10",
+                "metacritic":{
+                    "playstation":88,
+                    "xbox": null,
+                    "switch": null
+                },
+                "gamespot": "8/10"
+            },
+            "duration":{
+                "mainStory": "14.5 hrs",
+                "mainExtra": "17.5 hrs",
+                "completionist":"23 hrs"
+            },
+            "image": "images/games/lastofus.jpg"
+        },
+
+        {
+            "name": "Last of us Part-2",
+            "id": "002",
+            "publisher": "Naughty Dog",
+            "genre": "Action Adventure",
+            "price": "34.99",
+            "releaseDate":"19/06/2020" ,
+            "rating":{
+                "IGN": "10/10" ,
+                "metacritic":{
+                    "playstation":"93" ,
+                    "xbox": null,
+                    "switch": null
+                },
+                "gamespot": "8/10"
+            },
+            "duration":{
+                "mainStory": "24 hrs",
+                "mainExtra": "29.4 hrs",
+                "completionist": "42.5 hrs"
+            },
+            "image": "images/games/lastofus2.jpg"
+        },
+        {
+            "name": "Witcher 3",
+            "id": "003",
+            "publisher": "CD Projekt Red",
+            "genre": "Action RPG",
+            "price": "34.99",
+            "releaseDate": "19/05/2015",
+            "rating":{
+                "IGN": "9.3/10",
+                "metacritic":{
+                    "playstation": "92",
+                    "xbox": "91",
+                    "switch": null
+                },
+                "gamespot": "10/10" 
+            },
+            "duration":{
+                "mainStory": "51.5 hrs",
+                "mainExtra": "103 hrs",
+                "completionist": "173 hrs"
+
+            },
+            "image": "images/games/witcher3.jpg"
+        },
+        {
+            "name": "Cyberpunk 2077",
+            "id": "004",
+            "publisher": "CD Projekt Red",
+            "genre": "Action RPG",
+            "price": "69.99",
+            "releaseDate": "10/12/2020",
+            "rating":{
+                "IGN": "9/10",
+                "metacritic":{
+                    "playstation": 87,
+                    "xbox": 75,
+                    "switch": null
+                },
+                "gamespot": "10/10"
+            },
+            "duration":{
+                "mainStory": "25 hrs",
+                "mainExtra": "61 hrs",
+                "completionist": "103 hrs"
+
+            },
+            "image": "images/games/cyberpunk2077.jpg"
+        },
+        {
+            "name": "Death Stranding",
+            "id": "005",
+            "publisher": "Kojima Production",
+            "genre": "Action Adventure",
+            "price": "29.99",
+            "releaseDate": "08/11/2019",
+            "rating":{
+                "IGN": "6.8/10",
+                "metacritic":{
+                    "playstation": 82,
+                    "xbox": null,
+                    "switch": null
+                },
+                "gamespot": "9/10"
+            },
+            "duration":{
+                "mainStory": "40 hrs",
+                "mainExtra": "60 hrs",
+                "completionist": "113 hrs"
+
+            },
+            "image": "images/games/deathstranding.jpg"
+        },
+        {
+            "name": "Starfield",
+            "id": "006",
+            "publisher": "Bethesda softworks",
+            "genre": "Action RPG",
+            "price": "69.99",
+            "releaseDate": "01/09/2023",
+            "rating":{
+                "IGN": "7/10",
+                "metacritic":{
+                    "playstation": null,
+                    "xbox": 83,
+                    "switch": null
+                },
+                "gamespot": "7/10"
+            },
+            "duration":{
+                "mainStory": "22 hrs",
+                "mainExtra": "69.5 hrs",
+                "completionist": "146 hrs"
+
+            },
+            "image": "images/games/starfield.jpg"
+        },
+        {
+            "name": "Mortal Kombat",
+            "id": "007",
+            "publisher": "Netherrealms",
+            "genre": "Fighting",
+            "price": "69.99",
+            "releaseDate": "14/09/2023",
+            "rating":{
+                "IGN": "8/10",
+                "metacritic":{
+                    "playstation": 83,
+                    "xbox": 85,
+                    "switch": 40
+                },
+                "gamespot": "8/10" 
+            },
+            "duration":{
+                "mainStory": "6.5 hrs",
+                "mainExtra": "15 hrs",
+                "completionist": "40 hrs"
+
+            },
+            "image": "images/games/mortalkombat1.jpg"
+        },
+        {
+            "name": "Forza Horizon 5",
+            "id": "008",
+            "publisher": "Playground Digital",
+            "genre": "Racing",
+            "price": "71.49",
+            "releaseDate": "05/11/2021",
+            "rating":{
+                "IGN": "10/10",
+                "metacritic":{
+                    "playstation": 92,
+                    "xbox": null,
+                    "switch": null 
+                },
+                "gamespot": "8.5/10"
+            },
+            "duration":{
+                "mainStory": "20.5 hrs",
+                "mainExtra": "40.5 hrs",
+                "completionist": "116 hrs"
+
+            },
+            "image": "images/games/forzahorizon5.jpg"
+        },
+        {
+            "name": "Super Mario Odyssey",
+            "id": "009",
+            "publisher": "Nintendo",
+            "genre": "Platformer",
+            "price": "39.99",
+            "releaseDate": "27/10/2017",
+            "rating":{
+                "IGN": "10/10",
+                "metacritic":{
+                    "playstation": null,
+                    "xbox": null,
+                    "switch": 97 
+                },
+                "gamespot": "8.8/10"
+            },
+            "duration":{
+                "mainStory": "12.5 hrs",
+                "mainExtra": "27 hrs",
+                "completionist": "62 hrs"
+
+            },
+            "image": "images/games/supermarioodyssey.jpg"
+        },
+        {
+            "name": "Legends of Zelda Tears of the Kingdom",
+            "id": "010",
+            "publisher": "Nintendo",
+            "genre": "Action Adventure",
+            "price": "59.99",
+            "releaseDate": "12/05/2023",
+            "rating":{
+                "IGN": "10/10",
+                "metacritic":{
+                    "playstation": null,
+                    "xbox": null,
+                    "switch": 96
+                },
+                "gamespot": "8.3/10"
+            },
+            "duration":{
+                "mainStory": "59 hrs",
+                "mainExtra": "114 hrs",
+                "completionist": "236 hrs"
+
+            },
+            "image": "images/games/totk.jpg"
+        },
+        {
+            "name": "Gran Turismo 7",
+            "id": "011",
+            "publisher": "Polygon Digital",
+            "genre": "Racing",
+            "price": "79.99",
+            "releaseDate": "04/03/2022",
+            "rating":{
+                "IGN": "9/10",
+                "metacritic":{
+                    "playstation": 87,
+                    "xbox": null,
+                    "switch": null
+                },
+                "gamespot": "6.7/10"
+            },
+            "duration":{
+                "mainStory": "25 hrs",
+                "mainExtra": "42 hrs",
+                "completionist": "144 hrs"
+
+            },
+            "image": "images/games/granturismo7.jpg"
+        }
+    ]
+}

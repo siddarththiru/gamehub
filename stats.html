@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Statistics</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+        <!--Chart.js-->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <!--Bootstrap for Grid system and Responsiveness -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,600;1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <ul>
+                <li><h2 class="logo">Game Hub</h2></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="stats.html">Stats</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <br>
+        <!--Responsiveness by Siddarth-->
+        <!--HTML Structure and design done by Siddarth and Harsha using JQuery-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 chart_holder">
+                    <div id="tabs">
+                        <ul>
+                            <li><a href="#tabs-1">Ratings</a></li>
+                            <li><a href="#tabs-2">Duration</a></li>
+                        </ul>
+                        <div id="tabs-1">
+                            <div>
+                                <label for="ratingInput">Select Rating Source: </label>
+                                <select id="ratingInput">
+                                    <option value="IGN">IGN</option>
+                                    <option value="metacritic">Metacritic</option>
+                                    <option value="gamespot">Gamespot</option>
+                                </select>
+                            </div>
+                            <canvas id="ratingsChart" width="800" height="400"></canvas>
+                        </div>
+                        <div id="tabs-2">
+                            <canvas id="durationsChart" width="800" height="400"></canvas>
+                        </div>
+                        <div id="tabs-3">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <br>
+        </div>
+        <script type="text/javascript" src="scripts/stats_script.js"></script>
+    </body>
+</html>

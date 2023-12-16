@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game Hub</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!--Bootstrap for Grid system and Responsiveness -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,600;1,500&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--Navbar done by Harsha-->
+        <div class="navbar">
+            <ul>
+                <li><h2 class="logo">Game Hub</h2></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="stats.html">Stats</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row slide_row">
+                <div class="slider_wrapper col-md-8">
+                    <!--Slider structure and styling done by Harsha-->
+                    <div class="slider">
+                        <div class="slide">
+                            <div class="img_wrapper">
+                                <img src="#" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h2 id ="slider_name">Name</h2>
+                                <p id="slider_info">
+                                    <span id="cat">Game Category Unavailable</span>
+                                    <br>
+                                    RRP: <span id="price">Price Unavailable</span>
+                                    <br><br>
+                                    <span id="rating">
+                                        <img src="images/rating-logos/ign.png" alt="ign"><span id="ign_rating"></span>
+                                        <img src="images/rating-logos/metacritic.png" alt="metacritic"><span id="metacritic_rating"></span>
+                                        <img src="images/rating-logos/gamespot.png" alt="gamespot" id="gamespot_icon"><span id="gamespot_rating"></span>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Slider navigation structure and styling done by Siddarth-->
+                <div class="col-md-4 slider_nav">
+                    <div class="slider_btn">
+                        <div class="slider_btn_bg"></div>
+                        <img src="#">
+                        <h5></h5>
+                    </div>
+                    <div class="slider_btn">
+                        <div class="slider_btn_bg"></div>
+                        <img src="#">
+                        <h5></h5>
+                    </div>
+                    <div class="slider_btn">
+                        <div class="slider_btn_bg"></div>
+                        <img src="#">
+                        <h5></h5>
+                    </div>
+                    <div class="slider_btn">
+                        <div class="slider_btn_bg"></div>
+                        <img src="#">
+                        <h5></h5>
+                    </div>
+                    <div class="slider_btn">
+                        <div class="slider_btn_bg"></div>
+                        <img src="#">
+                        <h5></h5>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!--Done by Siddarth-->
+            <div class="row" id="other_games_home">
+                <h2>Check out other popular games!</h2>
+            </div>
+            <br>
+        </div>
+        <script type="text/javascript" src="scripts/main_script.js"></script>
+    </body>
+</html>
